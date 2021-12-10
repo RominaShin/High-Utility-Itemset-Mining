@@ -1,4 +1,4 @@
-package ca.pfv.spmf.algorithms.frequentpatterns.tko;
+//package tko;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -15,7 +15,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
-import ca.pfv.spmf.tools.MemoryLogger;
+//import MemoryLogger;
 
 /**
  * A simple implementation of the TKO algorithm without some of the 
@@ -37,10 +37,14 @@ public class AlgoTKO_Basic {
 	/** the internal min utility variable */
 	long minutility = 0; 
 
+
 	/** the top k rules found until now */
+	/* ??? */
 	PriorityQueue<Itemset> kItemsets; 
 
+
 	/** We create a map to store the TWU of each item */
+	/* ??? */
 	final Map<Integer, Integer> mapItemToTWU = new HashMap<Integer, Integer>();
 
 	/** this class represent an item and its utility in a transaction */
@@ -68,7 +72,10 @@ public class AlgoTKO_Basic {
 	 */
 	public void runAlgorithm(String input, String output, int k)
 			throws IOException {
-		MemoryLogger.getInstance().reset();
+
+		/* ??? */		
+		//MemoryLogger.getInstance().reset();
+
 		long startTimestamp = System.currentTimeMillis();
 		this.minutility = 1;
 		this.k = k;
@@ -76,7 +83,10 @@ public class AlgoTKO_Basic {
 		this.kItemsets = new PriorityQueue<Itemset>();
 
 		// We scan the database a first time to calculate the TWU of each item.
+
+		/* ??? */
 		BufferedReader myInput = null;
+
 		String thisLine;
 		try {
 			FileInputStream fin = new FileInputStream(new File(input));
@@ -96,6 +106,9 @@ public class AlgoTKO_Basic {
 				String items[] = split[0].split(" ");
 				// the transaction utility
 				int transactionUtility = Integer.parseInt(split[1]);
+
+
+				/* ??? */
 				// for each item, we add the transaction utility to its TWU
 				for (int i = 0; i < items.length; i++) {
 					Integer item = Integer.parseInt(items[i]);
@@ -115,6 +128,8 @@ public class AlgoTKO_Basic {
 			}
 		}
 
+
+		/* ??? */
 		// CREATE A LIST TO STORE THE ITEMS WITH TWU >= MIN_UTILITY.
 		List<UtilityList> listItems = new ArrayList<UtilityList>();
 
@@ -208,13 +223,13 @@ public class AlgoTKO_Basic {
 //		System.out.println(minutility);
 
 		// check the memory usage
-		MemoryLogger.getInstance().checkMemory();
+		//MemoryLogger.getInstance().checkMemory();
 
 		// Mine the database recursively
 		search(new int[0], null, listItems);
 
 		// check the memory usage again and close the file.
-		MemoryLogger.getInstance().checkMemory();
+		//MemoryLogger.getInstance().checkMemory();
 		totalTime = (System.currentTimeMillis() - startTimestamp) / 1000;
 	}
 
@@ -236,7 +251,7 @@ public class AlgoTKO_Basic {
 	 */
 	private void search(int[] prefix, UtilityList pUL, List<UtilityList> ULs)
 			throws IOException {
-		MemoryLogger.getInstance().checkMemory();
+		//MemoryLogger.getInstance().checkMemory();
 
 		// For each extension X of prefix P
 		for (int i = 0; i < ULs.size(); i++) {
@@ -420,7 +435,9 @@ public class AlgoTKO_Basic {
 				.println(" High-utility itemsets count : " + kItemsets.size());
 		System.out.println(" Total time ~ " + totalTime
 				+ " s");
-		System.out.println(" Memory ~ " + MemoryLogger.getInstance().getMaxMemory() + " MB");
+		//for ()		
+		System.out.println(" itemsets ~ " + kItemsets);
+		//System.out.println(" Memory ~ " + MemoryLogger.getInstance().getMaxMemory() + " MB");
 		System.out.println("===================================================");
 	}
 }

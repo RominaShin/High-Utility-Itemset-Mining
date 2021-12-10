@@ -1,4 +1,4 @@
-package ca.pfv.spmf.algorithms.frequentpatterns.tko;
+//package ca.pfv.spmf.algorithms.frequentpatterns.tko;
 
 
 import java.util.ArrayList;
