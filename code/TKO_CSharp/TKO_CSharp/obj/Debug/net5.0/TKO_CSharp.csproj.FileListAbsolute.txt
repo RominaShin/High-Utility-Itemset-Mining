@@ -1,0 +1,16 @@
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.csproj.AssemblyReference.cache
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.AssemblyInfoInputs.cache
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.AssemblyInfo.cs
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.csproj.CoreCompileInputs.cache
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.exe
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.deps.json
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.runtimeconfig.json
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.runtimeconfig.dev.json
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.dll
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\ref\TKO_CSharp.dll
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\bin\Debug\net5.0\TKO_CSharp.pdb
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.dll
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\ref\TKO_CSharp.dll
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.pdb
+E:\Education\Final Project\TKO_CSharp\TKO_CSharp\obj\Debug\net5.0\TKO_CSharp.genruntimeconfig.cache

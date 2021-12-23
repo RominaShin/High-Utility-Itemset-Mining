@@ -1,8 +1,8 @@
-#import Element.py
+from .Element import Element
 
 class UtilityList :
 
-	def __init__(self,item,sumIutils=0,sumRutils=0):
+	def __init__(self,item,sumIutils=0,sumRutils=0,elements =[]):
 		"""
 
 		:param item:
@@ -11,7 +11,7 @@ class UtilityList :
 		:param sumRutils:
 		"""
 		self.item = item
-		#self.elements = elements
+		self.elements = elements
 		self.sumIutils = sumIutils
 		self.sumRutils = sumRutils
 
@@ -19,7 +19,6 @@ class UtilityList :
 		"""
 		pass an Element object
 		"""
-		elements = []
 		self.sumIutils += element.iutils
 		self.sumRutils += element.rutils
-		elements.append(element)
+		self.elements.append(element)
