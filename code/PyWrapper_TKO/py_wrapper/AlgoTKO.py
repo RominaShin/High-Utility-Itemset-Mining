@@ -35,7 +35,7 @@ class Algo_TKO:
     #         self.item = item
     #         self.utility = utility
 
-    def run_algorithm(self, input="", output="", k=0):
+    def run_algorithm(self, input, output, k=0):
         """
         read file, add each item's utility to its twu, create a list with twu>min_utility
         map of utility list for each item, sort items based on their twu
@@ -46,9 +46,9 @@ class Algo_TKO:
         """
 
         # is it right to define these vars here? and with self?
-        self.input = input
-        self.output = output
-        self.k = k
+        #self.input = input
+        # self.output = output
+        # self.k = k
 
         start_timestamp = datetime.datetime.now()
         self.min_utility = 1
