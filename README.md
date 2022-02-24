@@ -12,3 +12,5 @@ In this project we focus on HUI-MINER algorithm and then we propose THUI-MINER w
 After extracting these itemsets, we're going to develop a recommender system which uses the mined data from database.
 
 </p>
+<br>
+You can find the final report : <a href='https://github.com/RominaShin/High-Utility-Itemset-Mining/blob/main/Final%20Seminar%20Report%20TKHUIM.pdf'> here </a>
