@@ -1,4 +1,4 @@
-# Top-K High Utility Itemset Mining
+# B. Sc. thesis: Top-K High Utility Itemset Mining
 
 <p>
   High utility itemsets are sets of items having a high utility or profit in a
