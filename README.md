@@ -8,7 +8,7 @@
 </p>
 <br>
 <p>
-In this project we focus on HUI-MINER algorithm and then we propose THUI-MINER which handles top k itemsets between driven itemsets by HUI-MINER.
+In this project we focus on HUI-MINER algorithm and then we propose TKO which handles top k itemsets between driven itemsets by HUI-MINER.
 After extracting these itemsets, we're going to develop a recommender system which uses the mined data from database.
 
 </p>
